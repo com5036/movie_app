@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__menu,
+.navigation__user {
+  margin: 10px;
+  border: solid white 2px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px gray;
+  background-color: white;
+}
+
+.navigation__menu a,
+.navigation__user a {
+  margin: 10px;
+  /* padding: 1px; */
+}
+
+.clicked {
+  color: red;
+}
